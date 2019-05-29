@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sushi Prompt - Unsolved</title>
+  </head>
+  <body>
+
+    <!-- <p id = "demo"></p> -->
+
+    <script type="text/javascript">
+
+
+
+      var eatSteak = confirm("Do you eat steak?");
+
+      if (eatSteak === true) {
+             document.write("Here's a Steak Sandwich! ");
+             }
+             else {
+             document.write("Here’s a Tofu Stir-Fry! ");
+             }
+      
+      // function oldEnough() {
+        
+        var yearBorn = prompt("What year were you born? (YYYY)");
+        
+        var birthYear = parseInt(yearBorn, 10);
+        
+        var today = new Date();
+        
+        var year = today.getUTCFullYear();
+        
+        var age = year - birthYear;
+        
+        if (age < 21) {
+          document.write("No sake for you!");
+          }
+        else {
+          document.write("Enjoy your sake!");
+          }
+      // }
+
+    </script>
+
+  </body>
+</html>

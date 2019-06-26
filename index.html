@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Sushi Prompt - Unsolved</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sushi Prompt</title>
+</head>
+<body>
+  
+<script type="text/javascript">
 
-    <!-- <p id = "demo"></p> -->
+  var eatSteak = confirm("Do you eat steak?");
 
-    <script type="text/javascript">
+  if (eatSteak === true) {
+    document.write("Here's a Steak Sandwich! ");
+  }
+  else {
+    document.write("Here’s a Tofu Stir-Fry! ");
+  }
 
+  // function oldEnough() {
 
+  var yearBorn = prompt("What year were you born? (YYYY)");
 
-      var eatSteak = confirm("Do you eat steak?");
+  var birthYear = parseInt(yearBorn, 10);
 
-      if (eatSteak === true) {
-             document.write("Here's a Steak Sandwich! ");
-             }
-             else {
-             document.write("Here’s a Tofu Stir-Fry! ");
-             }
-      
-      // function oldEnough() {
-        
-        var yearBorn = prompt("What year were you born? (YYYY)");
-        
-        var birthYear = parseInt(yearBorn, 10);
-        
-        var today = new Date();
-        
-        var year = today.getUTCFullYear();
-        
-        var age = year - birthYear;
-        
-        if (age < 21) {
-          document.write("No sake for you!");
-          }
-        else {
-          document.write("Enjoy your sake!");
-          }
+  var today = new Date();
+
+  var year = today.getUTCFullYear();
+
+  var age = year - birthYear;
+
+  if (age < 21) {
+    document.write("No sake for you!");
+  }
+  else {
+    document.write("Enjoy your sake!");
+  }
       // }
 
-    </script>
+</script>
 
-  </body>
+</body>
+
 </html>

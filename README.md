@@ -1,2 +1,3 @@
-# JavaScriptExercise
-using var, ? : , and document.write; created age query
+## JavaScriptExercise ##
+
+In-class JavaScript exercise using prompts and alerts. 
